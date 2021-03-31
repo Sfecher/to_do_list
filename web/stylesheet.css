@@ -1,0 +1,56 @@
+html, body {
+    height: 102%;
+}
+.wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#toDoItems{
+    border-style: solid;
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    width: 32%;
+    min-height: 50%;
+}
+#pressed{
+    border-style: solid;
+    position: absolute;
+    left: 34%;
+    top: 15%;
+    bottom: 0;
+    width: 65%;
+    min-height: 50%;
+}
+.items{
+    border-style: solid;
+    margin: 0% 2% 0% 2%;
+}
+.items>p{
+    margin: .5% 2% .5% 2%;
+}
+.items>h4{
+    margin: .5% 2% .5% 2%;
+}
+
+h2{
+    margin-left: 2%;
+}
+form{
+    margin-left: 2%;
+}
+
+::placeholder{
+    color: black;
+    font-family: monospace;
+}
+
+textarea {
+    width: 50%;
+    height: 150px;
+    box-sizing: border-box;
+    border-style: solid;
+    resize: none;
+    font-family: monospace;
+}
